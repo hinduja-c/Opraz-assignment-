@@ -1,4 +1,4 @@
-Real-Time PPE & Construction Site Safety Detection at the Edge
+# Real-Time PPE & Construction Site Safety Detection at the Edge
 
 An end-to-end Computer Vision project focused on building and optimizing a high-speed object detection system for industrial safety monitoring. This system identifies real-time site hazards and Personal Protective Equipment (PPE)—including **Hardhats, Safety Vests, Gloves, Masks, and Vehicles**—across 25 distinct target classes.
 To bridge the gap between heavy cloud computational requirements and resource-constrained local infrastructure, the baseline PyTorch model was compressed via **INT8 Quantization** and ported to an **ONNX Runtime engine** to achieve real-time latency budgets on edge hardware.
